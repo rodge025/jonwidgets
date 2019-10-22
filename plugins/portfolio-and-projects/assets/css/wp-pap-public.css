@@ -1,0 +1,71 @@
+/************* Slider Common CSS Starts ************/
+.wpapap-portfolio-img-slider{visibility: hidden; opacity:0;  transition:opacity 0.5s linear;  }
+.slick-initialized { visibility: visible !important; opacity:1 !important; }
+
+.wpapap-portfolio-img-slider .slick-arrow{text-indent:-99999px;box-shadow: none !important;}
+.wpapap-portfolio-img-slider button.slick-arrow {background-color: transparent!important; width:30px; height:40px; position:absolute; z-index:9; border:0px !important;padding:0 !important; margin:-20px 0 0 0 !important; border-radius:0px !important;top:50%;}
+.wpapap-portfolio-img-slider button.slick-next, .wpapap-portfolio-img-slider button.slick-next:hover, .wpapap-portfolio-img-slider button.slick-next:focus{background:rgba(0, 0, 0, 0.8) url('../images/arrow-right.png') center center no-repeat !important; outline:none !important;right:0;}
+.wpapap-portfolio-img-slider button.slick-prev, .wpapap-portfolio-img-slider button.slick-prev:hover, .wpapap-portfolio-img-slider button.slick-prev:focus{background:rgba(0, 0, 0, 0.8) url('../images/arrow-left.png') center center no-repeat !important; outline:none !important;left:0;}
+.wpapap-portfolio-img-slider .slick-dots{padding: 0 !important;margin: 0 auto !important;text-align: center;left: 0;right: 0;line-height: 0;position: absolute;bottom: 5px;}
+.wpapap-portfolio-img-slider .slick-dots li button{text-indent:-99999px;}
+.wpapap-portfolio-img-slider .slick-dots li {vertical-align: middle;list-style: none !important;display: inline-block !important;margin: 0 3px !important;padding: 0px !important;height: 16px;float: none;line-height: normal;font-size: 0;}
+.wpapap-portfolio-img-slider .slick-dots li button{background:#fff !important; margin:0px !important; padding:0px !important; border:1px solid #000; border-radius:50% !important; width:13px !important; height:13px !important;}
+.wpapap-portfolio-img-slider .slick-dots li button:focus{outline:none !important}
+.wpapap-portfolio-img-slider .slick-dots li.slick-active button{background:#444 !important;}
+
+/************* Slider Common CSS Ends ************/
+.wppap-slider-conf, .thumb-conf {display: none;}
+.wppap-main-wrapper ul.wppap-thumbs li.wppap-content {height:100%;}
+.wpapap-portfolio-img-slider .portfolio-slide {height: 300px;}
+
+.wppap-main-wrapper ul.wppap-thumbs li.thum-list {height: 250px !important;}
+
+
+.wppap-content {margin-bottom: 15px;}
+.wppap-right-content a.wppap-project-url-btn {padding: 5px 10px;color: #000 !important;border: 1px solid #000;text-decoration: none;-webkit-transition: 0.3s ease-in;transition: 0.3s ease-in}
+.wppap-right-content a.wppap-project-url-btn:hover, a.wppap-project-url-btn:focus {background: rgba(0, 0, 0, 0.8);border: 1px solid !important;color: #fff !important;border-color: transparent !important;-webkit-transition: 0.3s ease-in;transition: 0.3s ease-in;text-shadow: none;}
+
+
+.wppap-main-wrapper *{box-sizing: border-box;}
+.wppap-main-wrapper{width:100%;float: left;clear: both;}
+.wppap-main-wrapper ul li::before{content:none;}
+.wppap-main-wrapper ul li::after{content:none;}
+ul.wppap-thumbs li{margin:0;}
+.wppap-slider-wrapper{width:100%;float: left;}
+.wpapap-portfolio-img-slider{width: 100%;float: left;}
+.wpapap-portfolio-img-slider .portfolio-slide img{object-fit: cover;object-position:top center;height:100%;width:100%;border-radius: 0 !important;box-shadow: none !important;}
+.wppap-right-content{width: 100%;float: right;}
+.wppap-right-content .wppap-title{font-size:20px;font-weight:600;}
+
+/*****************Grid CSS*********************/
+
+.wppap-column,
+.wppap-columns {  padding-left: 0.9375em;  padding-right: 0.9375em;  width: 100%;  float: left; position: relative;  }
+
+@media only screen {
+	.wppap-column,  .wppap-columns {position: relative;padding-left: 0.9375em;padding-right: 0.9375em; float: left; }
+}
+
+@media only screen and (min-width: 40.0625em) {  
+	.wppap-column,
+	.wppap-columns {position: relative;padding-left: 0.9375em;padding-right: 0.9375em;float: left; }
+	.wppap-medium-1 {width: 8.33333%;}
+	.wppap-medium-2 {width: 16.66667%;}
+	.wppap-medium-3 {width: 25%;}
+	.wppap-medium-4 {width: 33.33333%;}
+	.wppap-medium-5 {width: 41.66667%;}
+	.wppap-medium-6 {width: 50%;}
+	.wppap-medium-7 {width: 58.33333%;}
+	.wppap-medium-8 {width: 66.66667%;}
+	.wppap-medium-9 {width: 75%;}
+	.wppap-medium-10 {width: 83.33333%;}
+	.wppap-medium-11 {width: 91.66667%;}
+	.wppap-medium-12 {width: 100%;}
+	
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	.wppap-main-wrapper ul.wppap-thumbs li.wppap-content {height: auto;}
+	.wpapap-portfolio-img-slider ul.slick-dots > li {width: auto !important;}
+	.wpapap-portfolio-img-slider .slick-dots {bottom: 10px;}
+} 
